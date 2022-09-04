@@ -12,7 +12,7 @@ hostname = hotspot-unlimited.com
  var url = $request.url;
  var obj = JSON.parse(body);
 
-  const Hᴀʙɪᴛ = '/addressx2';
+  const Hᴀʙɪᴛ = '/addressx2/';
 
 
  if (url.indexOf(Hᴀʙɪᴛ) != -1) {
