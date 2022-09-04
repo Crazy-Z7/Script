@@ -1,0 +1,24 @@
+/*
+@Hᴀʙɪᴛ.
+纳米盒解锁阅读付费
+更新日期:2022.09.02
+[rewrite_local]
+^https:\/\/namibox\.com\/appnative\/openbook\/initialize url script-response-body namihe.js
+[mitm]
+hostname = namibox.com
+*/
+
+var body = $response.body;
+ var url = $request.url;
+ var obj = JSON.parse(body);
+
+  const Hᴀʙɪᴛ. = '/appnative/openbook/initialize';
+
+
+ if (url.indexOf(Hᴀʙɪᴛ.) != -1) {
+     obj.engine_info.is_buy = true;
+     obj.engine_info.is_free = true; 
+      body = JSON.stringgify(obj);
+}
+
+$done({body});
