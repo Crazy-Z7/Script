@@ -1,4 +1,4 @@
-/*
+
 @Hᴀʙɪᴛ.
 解锁夏时国际vip线路
 更新日期:2022.09.04
@@ -6,7 +6,7 @@
 ^https?:\/\/hotspot-unlimited\.com\/addressx2\/url script-response-body xsgj.js
 [mitm]
 hostname = hotspot-unlimited.com
-*/
+
 
  var body = $response.body;
  var url = $request.url;
