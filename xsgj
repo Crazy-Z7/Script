@@ -16,7 +16,7 @@ hostname = hotspot-unlimited.com
 
 
  if (url.indexOf(Hᴀʙɪᴛ) != -1) {
-     obj.vip = 0;
+     obj.hand.vip = 0;
       
       body = JSON.stringgify(obj);
 }
