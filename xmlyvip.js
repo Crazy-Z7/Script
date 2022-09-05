@@ -19,7 +19,7 @@
 ^https?:\/\/.*\.xima.*\.com\/guideWord url reject
 ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime url reject
 ^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? url reject
-^https?:\/\/.*\.xima.*\.com\/(mobile-playpage/track/v3/baseInfo|mobile/v1/album/track|mobile/v1/album/detail|mobile-album/album/page|mobile/album/paid/info|mobile-playpage/playpage/tabs) url script-request-header xmly2.js
+^https?:\/\/.*\.xima.*\.com\/(mobile-playpage/track/v3/baseInfo|mobile/v1/album/track|mobile/v1/album/detail|mobile-album/album/page|mobile/album/paid/info|mobile-playpage/playpage/tabs) url script-request-header https://raw.githubusercontent.com/ztjssw/Quantumultx/main/xmlyvip.js
 [mimt]
 hostname = *.xima*.*,*.xmcdn.com
 */
