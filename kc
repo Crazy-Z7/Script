@@ -434,8 +434,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var js_base64__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 /**
 [rewrite_local]
-^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url script-response-body kc.js
-^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-response-body kc.js
+^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/kc
+^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/kc
 
 [mitm]
 hostname = sjapi.juqianpu.com
