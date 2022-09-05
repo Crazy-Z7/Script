@@ -3,7 +3,7 @@
 解锁医考帮会员
 更新日期:2022.09.04
 [rewrite_local]
-^https?:\/\/api\.yikaobang\.com\.cn(\/user\/main\/vip|\/index\.php\/activity\/main\/chapterLock) url script-response-body ykb.js
+^https?:\/\/api\.yikaobang\.com\.cn(\/user\/main\/vip|\/index\.php\/activity\/main\/chapterLock) url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/ykb.js
 [mitm]
 hostname = api.yikaobang.com.cn
 */ 
