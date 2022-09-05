@@ -1,7 +1,7 @@
 /*
 @Hᴀʙɪᴛ.
-纳米盒解锁阅读付费
-更新日期:2022.09.02
+纳米盒完整解锁
+更新日期:2022.09.05
 [rewrite_local]
 ^https:\/\/namibox\.com\/appnative\/openbook\/initialize url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/namihe.js
 [mitm]
