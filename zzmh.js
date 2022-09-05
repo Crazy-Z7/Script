@@ -3,7 +3,7 @@
 解锁追追漫画会员
 更新日期:2022.09.04
 [rewrite_local]
-^https?:\/\/api\.ilikemanga\.com\/request\.php url script-response-body zzmh.js
+^https?:\/\/api\.ilikemanga\.com\/request\.php url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/zzmh.js
 [mitm]
 hostname = api.ilikemanga.com
 */  
