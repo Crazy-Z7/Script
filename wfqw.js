@@ -3,7 +3,7 @@
 悟饭掌悦解锁会员
 更新日期:2022.09.02
 [rewrite_local]
-^http:\/\/iosv2\.cjapi\.wufan88\.com\/user\/ios_store_pay_edition\/members_login\/get_member_info url script-response-body wfqw.js
+^http:\/\/iosv2\.cjapi\.wufan88\.com\/user\/ios_store_pay_edition\/members_login\/get_member_info url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/wfqw.js
 [mitm]
 hostname = iosv2.cjapi.wufan88.com
 */
