@@ -3,7 +3,7 @@
 纳米盒解锁阅读付费
 更新日期:2022.09.02
 [rewrite_local]
-^https:\/\/namibox\.com\/appnative\/openbook\/initialize url script-response-body namihe.js
+^https:\/\/namibox\.com\/appnative\/openbook\/initialize url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/namihe.js
 [mitm]
 hostname = namibox.com
 */  
