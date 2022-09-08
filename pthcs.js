@@ -3,7 +3,7 @@
 普通话测试解锁永久会员
 更新日期:2022.09.09
 [rewrite_local]
-^https:\/\/api\.hcreator\.cn\/wapsPay\/Login\/pthTest\/v3\/getInfo\.do url script-response-body
+^https:\/\/api\.hcreator\.cn\/wapsPay\/Login\/pthTest\/v3\/getInfo\.do url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/pthcs.js
 [mitm]
 hostname = api.hcreator.cn
 */
