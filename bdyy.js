@@ -1,6 +1,6 @@
 /*
 @Hᴀʙɪᴛ.
-更新日期:2022.09.09
+更新日期:2022.09.10
 波点音乐解锁vip
 [rewrite_local]
 ^http[s]:\/\/(.*.kuwo.cn) url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/bdyy.js
