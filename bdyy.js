@@ -3,7 +3,7 @@
 更新日期:2022.09.09
 波点音乐解锁vip
 [rewrite_local]
-^http[s]:\/\/(bd-api.kuwo.cn*) url script-response-body
+^http[s]:\/\/(bd-api.*.cn*) url script-response-body
 [mitm]
 hostname = bd-api.kuwo.cn*
 */ 
