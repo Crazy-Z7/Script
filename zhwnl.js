@@ -3,7 +3,7 @@
 解锁中华万年历会员
 更新日期:2022.09.10
 [rewrite_local]
-^https?:\/\/v2-client\.suishenyun\.cn\/api\/auth\/sign\/userinfo url script-response-body
+^https?:\/\/v2-client\.suishenyun\.cn\/api\/auth\/sign\/userinfo url script-response-body https://raw.githubusercontent.com/ztjssw/Quantumultx/main/zhwnl.js
 [mitm]
 hostname = v2-client.suishenyun.cn
 */
