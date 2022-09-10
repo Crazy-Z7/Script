@@ -1,11 +1,11 @@
-  - {name: 🇭🇰 香港专线01, server: c6s3.jamjams3.net, port: 8937, type: vmess, uuid: 656a08a0-482e-403a-8228-2f27def97b44, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港专线02, server: c6s4.jamjams3.net, port: 8937, type: vmess, uuid: 656a08a0-482e-403a-8228-2f27def97b44, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本专线01, server: c6s1.jamjams3.net, port: 8937, type: ss, cipher: aes-256-gcm, password: 2fy79eNzgXSdTTZN, udp: true}
-  - {name: 🇯🇵 日本专线02, server: c6s2.jamjams3.net, port: 8937, type: ss, cipher: aes-256-gcm, password: 2fy79eNzgXSdTTZN, udp: true}
-  - {name: 🇰🇷 韩国专线01, server: c90s5.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国专线02, server: c90s801.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡专线01, server: c6s5.jamjams3.net, port: 8937, type: vmess, uuid: 656a08a0-482e-403a-8228-2f27def97b44, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡专线02, server: c6s801.jamjams3.net, port: 8937, type: vmess, uuid: 656a08a0-482e-403a-8228-2f27def97b44, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国专线01, server: c90s4.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国专线02, server: c90s3.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国专线03, server: c90s2.jamjams3.net, port: 19623, type: ss, cipher: aes-256-gcm, password: wpfgqbrTF7aEyWq3, udp: true}
+
+vmess://YXV0bzpiMDNhMWU3Yi1mMWFkLTRkMGUtODk1ZC02MzkzNTRlMzVmZjRAYzkwczQuamFtamFtczMubmV0OjE5NjIz?alterId=0
+vmess://YXV0bzo2NTZhMDhhMC00ODJlLTQwM2EtODIyOC0yZjI3ZGVmOTdiNDRAYzZzNC5qYW1qYW1zMy5uZXQ6ODkzNw?obfs=none&alterId=0
+ss://YWVzLTI1Ni1nY206MmZ5NzllTnpnWFNkVFRaTkBjNnMxLmphbWphbXMzLm5ldDo4OTM3
+vmess://YXV0bzo2NTZhMDhhMC00ODJlLTQwM2EtODIyOC0yZjI3ZGVmOTdiNDRAYzZzMy5qYW1qYW1zMy5uZXQ6ODkzNw?alterId=0
+ss://YWVzLTI1Ni1nY206d3BmZ3FiclRGN2FFeVdxM0BjOTBzMi5qYW1qYW1zMy5uZXQ6MTk2MjM
+vmess://YXV0bzpiMDNhMWU3Yi1mMWFkLTRkMGUtODk1ZC02MzkzNTRlMzVmZjRAYzkwczUuamFtamFtczMubmV0OjE5NjIz?alterId=0
+vmess://YXV0bzpiMDNhMWU3Yi1mMWFkLTRkMGUtODk1ZC02MzkzNTRlMzVmZjRAYzkwczMuamFtamFtczMubmV0OjE5NjIz?alterId=0
+vmess://YXV0bzo2NTZhMDhhMC00ODJlLTQwM2EtODIyOC0yZjI3ZGVmOTdiNDRAYzZzNS5qYW1qYW1zMy5uZXQ6ODkzNw?alterId=0
+vmess://YXV0bzo2NTZhMDhhMC00ODJlLTQwM2EtODIyOC0yZjI3ZGVmOTdiNDRAYzZzODAxLmphbWphbXMzLm5ldDo4OTM3?obfs=none&alterId=0
+vmess://YXV0bzpiMDNhMWU3Yi1mMWFkLTRkMGUtODk1ZC02MzkzNTRlMzVmZjRAYzkwczgwMS5qYW1qYW1zMy5uZXQ6MTk2MjM?alterId=0
