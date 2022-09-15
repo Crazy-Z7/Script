@@ -3,7 +3,7 @@
 羊了个羊每日pk双解锁,每日玩完删除小程序在近话题pk
 日期:2022.09.15
 [rewrite_local]
-^https:\/\/cat-match-static\.easygame2021\.com\/catMatch\/sheep_wx_1_1_4\/remote\/resources\/import\/cb\/cb6bb31d-ff5f-4cb9-b0a5-64018e70a0ca.c0636.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ylgy.js
+^https:\/\/cat-match-static\.easygame2021\.com\/catMatch\/sheep_wx_1_1_5\/remote\/resources\/import\/cb\/cb6bb31d-ff5f-4cb9-b0a5-64018e70a0ca\.c0636\.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ylgy.js
 ^https:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ylgy.js
 hostname = cat-match-static.easygame2021.com,cat-match.easygame2021.com
 **************************************/
