@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-羊了个羊通关次数100亿次，已测试，关掉规则好友也可见改的次数(装逼必备)，自己看不见改的次数
+羊了个羊通关次数无数亿次，已测试，关掉规则好友也可见改的次数(装逼必备)，自己看不见改的次数
 日期:2022.09.16
 [rewrite_local]
 ^https:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/personal_info url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/TGCSylgy.js
