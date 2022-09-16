@@ -4,7 +4,7 @@
 日期:2022.09.16
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pxjz.js
-hostname = catbuy.itunes.apple.com
+hostname = buy.itunes.apple.com
 **************************************/
 var body = $response.body.replace(/.+/g, '{
   "environment": "Production",
