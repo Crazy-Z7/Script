@@ -3,7 +3,7 @@
 貔貅记账会员
 日期:2022.09.16
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body 
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pxjz.js
 hostname = catbuy.itunes.apple.com
 **************************************/
 var body = $response.body.replace(/.+/g,'{
