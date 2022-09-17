@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-貔貅记账会员
+貔貅记账会员(没效果的话，先开试用在用规则)
 日期:2022.09.16
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pxjz
