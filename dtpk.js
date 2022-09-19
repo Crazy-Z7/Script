@@ -1,7 +1,7 @@
 /*************************************
 @@Zoo
 地铁跑酷解锁钥匙，滑板，金币，(没效果app卸载重进)
-日期:2022.09.17
+日期:2022.09.19
 [rewrite_local]
 ^https:\/\/game\.subway\.uu\.cc\/backup\/readBasicData url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/dtpk.js
 hostname = game.subway.uu.cc
