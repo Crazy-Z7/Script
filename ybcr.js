@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-一波超人，先进商店开宝箱领宝石，然后再开规则，解锁金币宝石
+小程序一波超人，先进商店开宝箱领宝石，然后再开进游戏规则，解锁金币宝石
 日期:2022.09.20
 [rewrite_local]
 ^https:\/\/(.*.xgamevip.com) url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ybcr.js
