@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-一波超人，解锁金币宝石
+一波超人，解锁金币宝石(规则可只开一次，用完退出小程序在开规则)
 日期:2022.09.20
 [rewrite_local]
 ^https:\/\/api\.xgamevip\.com url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ybcr.js
