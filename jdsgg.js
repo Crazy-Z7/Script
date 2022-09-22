@@ -1,7 +1,7 @@
 /*************************************
 @@Zoo
-微信小游戏，经典水管工，解锁金币，钻石💎
-日期:2022.09.18
+小程序，经典水管工，解锁金币，钻石
+日期:2022.09.22
 [rewrite_local]
 ^https:\/\/wx-game\.17zjh\.com\/user\/login url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/jdsgg.js
 hostname = wx-game.17zjh.com
