@@ -2,8 +2,8 @@
 作者@@Zoo
 软件下载地址:https://couyixia.com/ilu8.html?c=IJHNHLLKCWI
 [rewrite_local]
-^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url script-response-body 
-^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-response-body 
+^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/sjsp.js
+^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/sjsp.js
 hostname = sjapi.juqianpu.com
 ***********************************/
 
