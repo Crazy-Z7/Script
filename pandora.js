@@ -1,7 +1,7 @@
 /*************************************
 @@Zoo
-自动恢复永久订阅
-日期:2022.09.20
+恢复永久订阅
+日期:2022.09.22
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pandora.js
 hostname = buy.itunes.apple.com
