@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-WaterMinder解锁订阅
+WaterMinder解锁订阅(如不可用，请先试用订阅再开规则)
 日期:2022.09.24
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/water.js
