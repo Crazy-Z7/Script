@@ -1,6 +1,6 @@
 /*************************************************
 @@Zoo
-b站解锁大会员番剧影视
+b站解锁大会员番剧影视+4K
 日期:2022.09.22
 [rewrite_local]
 ^http[s]:\/\/(.*.bili*.com) url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/bi.js
