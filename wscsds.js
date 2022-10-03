@@ -6,14 +6,6 @@
 ^https:\/\/iap\.etm\.tech\/receipts url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/wscsds.js
 hostname = iap.etm.tech
 **************************************/
-/*************************************
-@@Zoo
-网速测试大师恢复永久订阅
-日期:2022.10.3
-[rewrite_local]
-^https:\/\/iap\.etm\.tech\/receipts url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/wscsds.js
-hostname = iap.etm.tech
-**************************************/
 var head = $request.headers;
 var ua = head['User-Agent'];
 
