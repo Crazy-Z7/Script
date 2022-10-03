@@ -1,7 +1,7 @@
 /*************************************
 @@Zoo
 变声器变声吧，恢复订阅(没效果就先试用)
-日期:2022.10.1
+日期:2022.10.01
 [rewrite_local]
 ^http:\/\/voicechanger\.szsszykj\.com\/interface\/GetIosVip\.php url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/bsq.js
 hostname = voicechanger.szsszykj.com
