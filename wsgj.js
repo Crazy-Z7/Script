@@ -1,7 +1,7 @@
 /**************************************
 @@Zoo
 网速管家解锁vip
-日期:2022.10.3
+日期:2022.10.03
 [rewrite_local]
 ^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/wsgj.js
 hostname = api-v3.speedtest.cn
