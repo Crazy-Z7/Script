@@ -10,7 +10,7 @@ var head = $request.headers;
 var ua = head['User-Agent'];
 
 if (ua.indexOf('Fileball') != -1) {
-    Body = {"{\n  \"entitlements\": [{\n    \"expires_date_ms\": 4739583083000,\n    \"purchase_date_ms\": 1655289297000,\n    \"product_identifier\": \"SpeedTest_RemoveAd_1_Year_20181015\",\n    \"is_in_trial_period\": false,\n    \"is_in_intro_offer_period\": false,\n    \"environment\": \"Production\",\n    \"redeem\": {},\n    \"auto_renew\": true,\n    \"entitlement_id\": \"premium\"\n  }],\n  \"is_valid\": true\n}"}};
+    Body = {"request_date":"1983-03-15T00:00:00Z","request_date_ms":416505600000,"subscriber":{"entitlements":{"filebox_pro":{"expires_date":null,"grace_period_expires_date":null,"product_identifier":"filebox_pro","purchase_date":"1983-03-15T00:00:00Z"}},"first_seen":"1983-03-15T00:00:00Z","last_seen":"1983-03-15T00:00:00Z","management_url":null,"non_subscriptions":{"filebox_pro":[{"id":"yingzi","is_sandbox":false,"original_purchase_date":"1983-03-15T00:00:00Z","purchase_date":"1983-03-15T00:00:00Z","store":"app_store"}]},"original_app_user_id":"$RCAnonymousID%3A8e5a11e56b4246f2ab2b17058c01db1e","original_application_version":"170","original_purchase_date":"1983-03-15T00:00:00Z","other_purchases":{"filebox_pro":{"purchase_date":"1983-03-15T00:00:00Z"}},"subscriptions":{}}};
 }
 
 Status = 'HTTP/1.1 200 OK';
