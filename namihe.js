@@ -1,7 +1,7 @@
 /****************************************
 @@Zoo
-纳米盒解锁会员权限
-日期:2022.10.16
+纳米盒解锁付费阅读权限
+日期:2022.09.02
 [rewrite_local]
 ^https:\/\/namibox\.com url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/namihe.js
 hostname = namibox.com
