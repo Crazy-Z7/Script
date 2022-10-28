@@ -3,7 +3,7 @@
 财新解锁财新通不需要登录，会员有效期2022.10.31
 日期:2022.10.17
 [rewrite_local]
-^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validateAudioAuth|validate) url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/caixin.js
+^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validateAudioAuth|validate|groupImageValidate) url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/caixin.js
 hostname = gateway.caixin.com
 *******************************************/
 
