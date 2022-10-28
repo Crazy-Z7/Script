@@ -1,6 +1,6 @@
 /******************************************
 @@Zoo
-财新解锁财新通，不需要登录 会员有效期2022.10.30
+解锁财新通文章阅读，不需要登录 会员有效期2022.10.31
 日期:2022.10.17
 [rewrite_local]
 ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth|groupImageValidate) url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/caixin.js
