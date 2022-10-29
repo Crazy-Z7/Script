@@ -1,6 +1,6 @@
 /**********************************************
 @@Zoo
-解锁会员专享课程，直播课，官方独家课，具体自测
+部分解锁会员功能，具体自测
 日期:2022.10.29
 [rewrite_local]
 ^https?:\/\/api\.gotokeep\.com url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/keep.js
