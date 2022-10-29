@@ -1,7 +1,7 @@
 /**********************************************
 @@Zoo
 拍照搜题解锁会员
-日期:2022.10.02
+日期:2022.10.29
 [rewrite_local]
 ^https?:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pzst.js
 hostname = appss.rhinoxlab.com
