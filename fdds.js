@@ -1,6 +1,6 @@
 /**********************************************
 @@Zoo
-樊登读书解锁会员权限
+樊登读书解锁会员权限(不能听就是失效了，不要纠结)
 日期:2022.11.26
 [rewrite_local]
 ^https?:\/\/.*.dushu365.com* url request-body "token":".*?" request-body "token":"202211261ex1LAhKKo7diZHjsF2"
