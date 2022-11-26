@@ -1,6 +1,6 @@
 /**********************************************
 @@Zoo
-爱剪辑-视屏剪辑&视屏编辑vlog制作
+爱剪辑-视屏剪辑&视屏编辑vlog制作 解锁会员(需要登录)
 日期:2022.11.26
 [rewrite_local]
 ^https?:\/\/api\.open\.loveclip\.site\/UserInfo\/(UserPersonalCoreAsync|GetUserDetail) url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ajj.js
