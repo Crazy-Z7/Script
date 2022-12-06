@@ -10,14 +10,14 @@ var ojbk = JSON.parse($response.body);
 
     ojbk = {
   "is_premium" : true,
-  "is_web_purchase" : false,
-  "is_subscription_gifted" : false,
+  "is_web_purchase" : true,
+  "is_subscription_gifted" : true,
   "groups_statuses" : {
     "20504180" : {
       "was_trial" : true
     }
   },
-  "is_family_subscription_gifted" : false,
+  "is_family_subscription_gifted" : true,
   "purchase_scenario" : "intro.intro.auto_renew_off",
   "purchase_state" : "INTRO"
 }
