@@ -1,6 +1,6 @@
 /*************************************
 @Zoo
-mooding解锁永久订阅
+mooding-日记心情摩天轮，解锁永久订阅
 日期:2023.04.07
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Mooding.js
