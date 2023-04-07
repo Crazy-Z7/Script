@@ -72,7 +72,7 @@ var obj = JSON.parse($response.body);
       “purchase_date” : “2023-04-07 13:08:20 Etc/GMT”,
       “product_id” : “YearlyClub”,
       “expires_date_pst” : “2286-05-13 16:41:40 America/Los_Angeles”,
-      “offer_code_ref_name” : “Zoo破解”,
+      “offer_code_ref_name” : “支付宝”,
       “original_transaction_id” : “310001393848489”,
       “expires_date_ms” : “9983464900000”,
       “subscription_group_identifier” : “20859991”,
