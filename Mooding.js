@@ -8,7 +8,7 @@ hostname = buy.itunes.apple.com
 **************************************/
 var obj = JSON.parse($response.body);
    
-    obj = {{
+    obj = {
   "environment" : "Production",
   "receipt" : {
     "receipt_type" : "Production",
@@ -85,7 +85,7 @@ var obj = JSON.parse($response.body);
       "auto_renew_status" : "0"
     }
   ]
-}}
+}
 
 $done({body : JSON.stringify(obj)});
 
