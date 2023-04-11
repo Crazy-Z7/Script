@@ -58,7 +58,7 @@ var obj = JSON.parse($response.body);
        "auto_renew_status" : "0"
      }
    ],
-   "status" : 1,
+   "status" : 0,
    "latest_receipt_info" : [
      {
        "quantity" : "1",
