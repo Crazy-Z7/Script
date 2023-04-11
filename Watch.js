@@ -1,6 +1,6 @@
 /*************************************
 @Zoo
-WatchFacesGallery&Widgets解锁永久订阅，一定要先试用然后卸载，在开脚本恢复购买切记
+WatchFacesGallery&Widgets解锁永久订阅，一定要先试用然后卸载，在开脚本恢复购买，切记！(脚本只需要开一次)
 日期:2023.04.11
 [rewrite_local]
 ^https？:\/\/api\.adapty\.io\/api\/v1\/sdk\/in-apps\/apple\/receipt\/validate\/ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Watch.js
