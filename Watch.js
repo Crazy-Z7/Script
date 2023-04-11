@@ -3,7 +3,7 @@
 WatchFacesGallery&Widgets解锁永久订阅
 日期:2023.04.11
 [rewrite_local]
-^https？:\/\/api\.adapty\.io\/api\/v1\/sdk\/in-apps\/apple\/receipt\/validate\/ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Watch.js
+^https？:\/\/api\.adapty\.io url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Watch.js
 hostname = api.adapty.io
 **************************************/
 var obj = JSON.parse($response.body);
