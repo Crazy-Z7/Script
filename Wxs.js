@@ -1,6 +1,6 @@
 /*************************************
 @Zoo
-文晓生，解锁永久订阅
+文晓生小说阅读器，解锁永久订阅
 日期:2023.04.11
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Wxs.js
@@ -58,7 +58,7 @@ var obj = JSON.parse($response.body);
        "auto_renew_status" : "0"
      }
    ],
-   "status" : 0,
+   "status" : 1,
    "latest_receipt_info" : [
      {
        "quantity" : "1",
