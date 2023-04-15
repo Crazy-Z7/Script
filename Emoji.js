@@ -1,6 +1,6 @@
 /**********************************************
 @Zoo
-Emoji 解锁永久订阅
+Emoji 解锁永久订阅，只解锁部分会员键盘权限
 日期:2023.04.16
 [rewrite_local]
 ^https?:\/\/securetoken\.googleapis\.com\/v1\/token url reject-200
