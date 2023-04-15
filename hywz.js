@@ -1,6 +1,6 @@
 /**********************************************
 @Zoo
-花样文字,解锁订阅
+花样文字,OffScreen 两款app解锁订阅
 日期:2023.04.15
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/hywz.js
