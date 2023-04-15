@@ -55,7 +55,7 @@ var obj = JSON.parse($response.body);
        "product_id" : "com.morpholio.trace.pro1yr",
        "original_transaction_id" : "310001401446786",
        "auto_renew_product_id" : "com.morpholio.trace.pro1yr",
-       "auto_renew_status" : "1"
+       "auto_renew_status" : "0"
      }
    ],
    "status" : 0,
@@ -85,4 +85,5 @@ var obj = JSON.parse($response.body);
  }
 
 $done({body : JSON.stringify(obj)});
+
 
