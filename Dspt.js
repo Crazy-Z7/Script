@@ -6,32 +6,4 @@
 ^https?:\/\/buy\.videoshowiosglobalserver\.com\/zone/1.0.1/iosPayClient\/imeiVerify\.htm url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Dspt.js
 hostname = buy.videoshowiosglobalserver.com
 **************************************/
-var obj = JSON.parse($response.body);
-   
-    obj = {
-   "subscrib_type" : "2",
-   "retCode" : 1,
-   "current_date" : "2023-04-15 12:03:09",
-   "isUpdateUuid" : 0,
-   "retMsg" : "success",
-   "isUsedPromocode" : 0,
-   "isDiscount" : 1,
-   "product_id" : "mg_vip_year",
-   "renew_status" : 0,
-   "label_type" : 0,
-   "list" : [
-     {
-       "current_date" : "2023-04-15 12:03:09",
-       "original_transaction_id" : "310001401549495",
-       "order_status" : 1,
-       "product_id" : "mg_vip_year",
-       "purchase_date" : "2023-04-15 12:00:46",
-       "expires_date" : "2223-04-18 12:00:46"
-     }
-   ],
-   "recallLabelType" : 0
- }
- 
-
-$done({body : JSON.stringify(obj)});
-
+function _0x4d32(_0xc88a10,_0x612147){var _0x2a1f71=_0x61f7();return _0x4d32=function(_0x39be01,_0x198868){_0x39be01=_0x39be01-(-0x1221+0x1882*0x1+-0x4fa);var _0xdfb950=_0x2a1f71[_0x39be01];return _0xdfb950;},_0x4d32(_0xc88a10,_0x612147);}var _0x469e10=_0x4d32;(function(_0x3cc734,_0x1f640b){var _0x424ff8=_0x4d32,_0x155e8a=_0x3cc734();while(!![]){try{var _0x4ac722=-parseInt(_0x424ff8(0x177))/(0x1788+-0x14e2+-0x2a5)*(parseInt(_0x424ff8(0x167))/(0x7*-0x20f+-0x365+0x11d0))+parseInt(_0x424ff8(0x169))/(-0x19*0x105+0x8f9*0x1+0x1087*0x1)+parseInt(_0x424ff8(0x173))/(0x3*0x61d+-0x1*-0x2d3+0xa93*-0x2)+parseInt(_0x424ff8(0x16d))/(-0x1968*0x1+0x1042+0x92b)+-parseInt(_0x424ff8(0x171))/(0x418+-0xd0a*0x1+0x8f8)+parseInt(_0x424ff8(0x16b))/(0xbbe+0x1*-0x1baf+0xff8)+-parseInt(_0x424ff8(0x172))/(0x1e82+-0x22d1+0x457);if(_0x4ac722===_0x1f640b)break;else _0x155e8a['push'](_0x155e8a['shift']());}catch(_0x1bb1ad){_0x155e8a['push'](_0x155e8a['shift']());}}}(_0x61f7,-0x513fe+0x3dbb*0x1c+-0x38726*-0x1));var obj=JSON[_0x469e10(0x168)]($response[_0x469e10(0x179)]);obj={'subscrib_type':'2','retCode':0x1,'current_date':_0x469e10(0x16a)+_0x469e10(0x16e),'isUpdateUuid':0x0,'retMsg':_0x469e10(0x174),'isUsedPromocode':0x0,'isDiscount':0x1,'product_id':_0x469e10(0x175)+'r','renew_status':0x0,'label_type':0x0,'list':[{'current_date':_0x469e10(0x16a)+_0x469e10(0x16e),'original_transaction_id':_0x469e10(0x16c)+_0x469e10(0x16f),'order_status':0x1,'product_id':_0x469e10(0x175)+'r','purchase_date':_0x469e10(0x16a)+_0x469e10(0x170),'expires_date':_0x469e10(0x178)+_0x469e10(0x170)}],'recallLabelType':0x0},$done({'body':JSON[_0x469e10(0x176)](obj)});function _0x61f7(){var _0x216673=['2023-04-15','2584610GAOHaL','3100014015','2293525NlJrYY','\x2012:03:09','49495','\x2012:00:46','2726178kzRRRc','1320896GTmLQJ','347904qZCsoh','success','mg_vip_yea','stringify','7415KBLNCS','2223-04-18','body','130OZMFWf','parse','1582293fZjwRb'];_0x61f7=function(){return _0x216673;};return _0x61f7();}
