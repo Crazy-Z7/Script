@@ -1,6 +1,6 @@
 /*************************************
 @Zoo
-Trace解锁永久订阅,先试用在恢复购买
+Trace解锁永久订阅,开脚本进软件恢复购买
 日期:2023.04.15
 [rewrite_local]
 ^https?:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Trace.js
