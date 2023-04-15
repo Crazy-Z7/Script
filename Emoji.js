@@ -7,4 +7,50 @@ Emoji 解锁永久订阅
 ^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Emoji.js
 hostname = api.revenuecat.com,securetoken.googleapis.com
 **********************************************/
-var _0x12ab90=_0x1875;(function(_0x55b140,_0x1f999b){var _0x56aab6=_0x1875,_0x304872=_0x55b140();while(!![]){try{var _0x31d033=parseInt(_0x56aab6(0xcd))/(-0x42d*0x1+-0xe*0x1e6+-0xf61*-0x2)*(parseInt(_0x56aab6(0xc9))/(0x1cd6+-0x189a+-0x1*0x43a))+parseInt(_0x56aab6(0xca))/(-0xc4+-0xf4*-0x12+-0x7*0x257)*(-parseInt(_0x56aab6(0xb4))/(0x1ee3+-0x25*-0x97+-0x34b2))+parseInt(_0x56aab6(0xa9))/(0x21dc+0x135+-0x4*0x8c3)*(-parseInt(_0x56aab6(0xcf))/(-0x52b*0x5+-0x15c0+0x2f9d))+-parseInt(_0x56aab6(0xb2))/(0x7bc+0x1c*0x7d+-0x1561)*(-parseInt(_0x56aab6(0xb0))/(-0x17*-0xad+0xe3e+-0x1dc1*0x1))+-parseInt(_0x56aab6(0xbf))/(-0x700+0x983+-0x2*0x13d)*(-parseInt(_0x56aab6(0xb9))/(-0xa1f+0x1aa5+-0x107c))+parseInt(_0x56aab6(0xb1))/(-0x10cc+0x8*0x2d3+0x1*-0x5c1)*(-parseInt(_0x56aab6(0xc5))/(-0x10*-0x13+-0x29*-0xf1+-0x27bd))+-parseInt(_0x56aab6(0xb7))/(-0x1*-0xa94+0x2*-0x116d+0x1853)*(parseInt(_0x56aab6(0xad))/(-0x1869+0xe*0xfb+-0xabd*-0x1));if(_0x31d033===_0x1f999b)break;else _0x304872['push'](_0x304872['shift']());}catch(_0x66708e){_0x304872['push'](_0x304872['shift']());}}}(_0x122b,0x106269+0x7f8eb+-0xd5557));function _0x122b(){var _0x4f4647=['14560yZcdmi','2022-09-12','12334620wWYIdp','T15:19:42Z','T15:15:51Z','parse','n.premium','usID:44fc1','9IoroqR','T13:53:38Z','body','T15:16:19Z','2023-04-15','com.emoji.','1619700qnVwUN','freemium.s','$RCAnonymo','5c6a5a342a','188042LwhsdD','1263GMbGgB','12.10.0.11','PURCHASED','10OzPgNN','trial','3138jmQhSG','T15:18:52Z','1660EAnekT','app_store','T15:18:51Z','9b3567c','12026XsySur','T13:53:37Z','stringify','625928cvbWVg','88ERIAWW','119Ccttll','5a55db4678','5376bkoKQZ','2922-09-15','ubscriptio'];_0x122b=function(){return _0x4f4647;};return _0x122b();}function _0x1875(_0x302f0a,_0x47f777){var _0x48eafe=_0x122b();return _0x1875=function(_0x390b8d,_0x14f391){_0x390b8d=_0x390b8d-(0x2347+0xc9a+-0x2f38);var _0x41f539=_0x48eafe[_0x390b8d];return _0x41f539;},_0x1875(_0x302f0a,_0x47f777);}var obj=JSON[_0x12ab90(0xbc)]($response[_0x12ab90(0xc1)]);obj={'request_date_ms':0x18785315ed4,'request_date':_0x12ab90(0xc3)+_0x12ab90(0xc0),'subscriber':{'non_subscriptions':{},'first_seen':_0x12ab90(0xb8)+_0x12ab90(0xc2),'original_application_version':_0x12ab90(0xcb),'other_purchases':{},'management_url':null,'subscriptions':{'com.emoji.freemium.subscription.premium':{'original_purchase_date':_0x12ab90(0xb8)+_0x12ab90(0xd0),'expires_date':_0x12ab90(0xb5)+_0x12ab90(0xab),'is_sandbox':![],'refunded_at':null,'unsubscribe_detected_at':_0x12ab90(0xb8)+_0x12ab90(0xba),'grace_period_expires_date':null,'period_type':_0x12ab90(0xce),'purchase_date':_0x12ab90(0xb8)+_0x12ab90(0xab),'billing_issues_detected_at':null,'ownership_type':_0x12ab90(0xcc),'store':_0x12ab90(0xaa),'auto_resume_date':null}},'entitlements':{'subscription':{'grace_period_expires_date':null,'purchase_date':_0x12ab90(0xb8)+_0x12ab90(0xab),'product_identifier':_0x12ab90(0xc4)+_0x12ab90(0xc6)+_0x12ab90(0xb6)+_0x12ab90(0xbd),'expires_date':_0x12ab90(0xb5)+_0x12ab90(0xab)}},'original_purchase_date':_0x12ab90(0xb8)+_0x12ab90(0xbb),'original_app_user_id':_0x12ab90(0xc7)+_0x12ab90(0xbe)+_0x12ab90(0xc8)+_0x12ab90(0xb3)+_0x12ab90(0xac),'last_seen':_0x12ab90(0xc3)+_0x12ab90(0xae)}},$done({'body':JSON[_0x12ab90(0xaf)](obj)});
+var obj = JSON.parse($response.body);
+   
+    obj = {
+   "request_date_ms" : 1681566818004,
+   "request_date" : "2023-04-15T13:53:38Z",
+   "subscriber" : {
+     "non_subscriptions" : {
+ 
+     },
+     "first_seen" : "2022-09-12T15:16:19Z",
+     "original_application_version" : "12.10.0.11",
+     "other_purchases" : {
+ 
+     },
+     "management_url" : null,
+     "subscriptions" : {
+       "com.emoji.freemium.subscription.premium" : {
+         "original_purchase_date" : "2022-09-12T15:18:52Z",
+         "expires_date" : "2286-04-21T17:26:58Z",
+         "is_sandbox" : false,
+         "refunded_at" : null,
+         "unsubscribe_detected_at" : "2022-09-12T15:19:42Z",
+         "grace_period_expires_date" : 9981566818004,
+         "period_type" : "trial",
+         "purchase_date" : "2022-09-12T15:18:51Z",
+         "billing_issues_detected_at" : null,
+         "ownership_type" : "PURCHASED",
+         "store" : "app_store",
+         "auto_resume_date" : null
+       }
+     },
+     "entitlements" : {
+       "subscription" : {
+         "grace_period_expires_date" : 9981566818004,
+         "purchase_date" : "2022-09-12T15:18:51Z",
+         "product_identifier" : "com.emoji.freemium.subscription.premium",
+         "expires_date" : "2286-04-21T17:26:58Z"
+       }
+     },
+     "original_purchase_date" : "2022-09-12T15:15:51Z",
+     "original_app_user_id" : "$RCAnonymousID:44fc15c6a5a342a5a55db46789b3567c",
+     "last_seen" : "2023-04-15T13:53:37Z"
+   }
+ }
+ 
+
+$done({body : JSON.stringify(obj)});
