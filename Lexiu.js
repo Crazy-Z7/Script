@@ -1,6 +1,6 @@
 /*************************************
 @Zoo
-乐秀，解锁永久订阅
+乐秀和多功能视屏剪辑两款，解锁永久订阅
 日期:2023.04.15
 [rewrite_local]
 ^https?:\/\/cn-ios-buy\.enjoy-mobi\.com\/zone\/1.0.1\/iosPayClient\/payVerify\.htm url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Lexiu.js
