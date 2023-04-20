@@ -7,8 +7,8 @@
 hostname = hcrdxgame.dcatgame.com
 **********************************************/
 var obj = JSON.parse($response.body);
-obj.data.currentEnergy = 888888888888888888888;
-obj.data.timeSandCount = "4092599349000000000";
+obj.data.currentEnergy = 555555555555555555665;
+obj.data.timeSandCount = "4444444444444444444";
 obj.data.redDiamondCount = “11111111111111111”;
 obj.data.mysticalRockCount = “222222222222222”;
 obj.data.summonEAdCount = “333333333333333333”;
