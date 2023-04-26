@@ -14,4 +14,5 @@ var obj = JSON.parse($response.body);
  obj.result.vipGroupInfos.vipType = "VIP";
  obj.result.vipGroupInfos.autoPay = "NO";
  obj.result.realnameStatus = "YES";
+                  $notify("解锁成功");
 $done({body : JSON.stringify(obj)});
