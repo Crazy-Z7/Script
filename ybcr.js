@@ -1,6 +1,6 @@
 /*************************************
 @@Zoo
-小程序一波超人，解锁金币宝石，规则可只开一次(用完宝石可删除小程序在开规则进入)
+小程序一波超人，解锁体力金币宝石，规则可只开一次(用完宝石可删除小程序在开规则进入)
 日期:2022.09.20
 [rewrite_local]
 ^https:\/\/api\.xgamevip\.com\/api\/v1\/getUserData url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ybcr.js
