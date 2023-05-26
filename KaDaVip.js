@@ -1,7 +1,7 @@
 
 /*************************************
 作者:Zoo
-解锁KaDa阅读、绘本，课程视屏，功能自测
+解锁KaDa阅读、绘本，课程视屏，功能自测。不显示vip
 日期:2023.05.26
 [rewrite_local]
 https://service.hhdd.com/story2/getCollectItems.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/KaDaVip.js
