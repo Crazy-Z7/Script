@@ -4,7 +4,7 @@ iScreen，商店最新版解锁永久订阅，修复规则反复失效问题，�
 版本号:3.6.7
 日期:2023.05.18
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/iScreen.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/iScreen.js
 https?:\/\/pay\.kuso\.xyz\/pay\/pay-check url reject-200
 hostname = buy.itunes.apple.com
 **************************************/
