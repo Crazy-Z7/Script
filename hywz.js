@@ -3,7 +3,7 @@
 花样文字,OffScreen 两款app解锁订阅
 日期:2023.04.16
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/hywz.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/hywz.js
 ^https:\/\/fcmtoken\.googleapis\.com\/register url reject-200
 hostname = api.revenuecat.com,fcmtoken.googleapis.com
 **********************************************/
