@@ -3,7 +3,7 @@
 文晓生小说阅读器，解锁永久订阅，没效果的先试用一下
 日期:2023.04.11
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Wxs.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Wxs.js
 hostname = buy.itunes.apple.com
 **************************************/
 var obj = JSON.parse($response.body);
