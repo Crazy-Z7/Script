@@ -4,7 +4,7 @@
 日期:2023.04.03
 [rewrite_local]
 ^https?:\/\/ad\.rhinox\.cn url reject-200
-^https?:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/pzst.js
+^https?:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/pzst.js
 hostname = appss.rhinoxlab.com,ad.rhinox.cn
 ***************************************/ 
 var obj = JSON.parse($response.body);
