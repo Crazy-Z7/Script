@@ -3,7 +3,7 @@
 铁牛爱经解锁会员
 日期:2022.11.28
 [rewrite_local]
-^https?:\/\/admin\.tieniupro\.com\/rest\/getUserById url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/tnaj.js
+^https?:\/\/admin\.tieniupro\.com\/rest\/getUserById url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/tnaj.js
 hostname = admin.tieniupro.com
 **********************************************/
 
