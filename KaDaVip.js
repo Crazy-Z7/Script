@@ -4,9 +4,9 @@
 解锁KaDa阅读、绘本，课程视屏，功能自测。不显示vip
 日期:2023.05.26
 [rewrite_local]
-https://service.hhdd.com/story2/getCollectItems.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/KaDaVip.js
-https://course-service.hhdd.com/course/mix/info2.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/KaDaVip.js
-https://service.hhdd.com/book2/info1.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/KaDaVip.js
+https://service.hhdd.com/story2/getCollectItems.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
+https://course-service.hhdd.com/course/mix/info2.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
+https://service.hhdd.com/book2/info1.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
 hostname = course-service.hhdd.com,service.hhdd.com
 **************************************/
 
