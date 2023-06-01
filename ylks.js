@@ -3,7 +3,7 @@
 咿啦看书完美解锁会员权限
 日期:2022.10.15
 [rewrite_local]
-^https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/ylks.js
+^https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/ylks.js
 hostname = bookapi.ellabook.cn
 **************************************/
 
