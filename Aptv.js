@@ -3,7 +3,7 @@
 Aptv解锁永久订阅
 日期:2023.05.26
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Aptv.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Aptv.js
 hostname = api.revenuecat.com
 **********************************************/
 var Zooaptv = JSON.parse($response.body);
