@@ -4,8 +4,7 @@
 日期:2023.06.20
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/gql.js
-^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/refreshUserMembership url reject-200
-hostname = api.revenuecat.com,api.guoqi365.com
+hostname = api.revenuecat.com
 **********************************************/
 let Zoo = JSON.parse($response.body);
    
