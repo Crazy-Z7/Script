@@ -1,6 +1,6 @@
 /**********************************************
 作者:Zoo
-过期啦解锁永久订阅
+过期啦解锁永久订阅,没效果卸载重装，不要登陆帐号
 日期:2023.06.21
 [rewrite_local]
 ^https:\/\/api\.revenuecat\.com\/v1\/receipts url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/guoqila.js
