@@ -6,22 +6,20 @@
 ^https?:\/\/mobile-api\.adguard\.org\/api\/2\.0\/ios_validate_receipt\/ADG_EXT url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/AdGuard.js
 hostname = mobile-api.adguard.org
 **********************************************/
- 
+
 
 
 
 
 var OwnerReadGuard = JSON.parse($response.body);
-   
+
 OwnerReadGuard = {
-  "products" : [
-    {
-      "premium_status" : "ACTIVE",
-      "product_id" : "com.adguard.lifetimePurchase"
-    }
-  ]
+    "products": [{
+        "premium_status": "ACTIVE",
+        "product_id": "com.adguard.lifetimePurchase"
+    }]
 }
 
 
-$done({body : JSON.stringify(OwnerReadGuard)});
-
+$done({
+    body: JSON.stringify(OwnerReadGuard)});
