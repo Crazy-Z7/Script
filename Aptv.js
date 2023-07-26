@@ -6,8 +6,7 @@ Aptv解锁永久订阅
 ^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Aptv.js
 hostname = api.revenuecat.com
 **********************************************/
-var Zooaptv = JSON.parse($response.body);
-   
+let Zooaptv = JSON.parse($response.body);
     Zooaptv = {
    "request_date_ms" : 1662904006346,
    "request_date" : "2022-09-11T13:46:46Z",
@@ -42,7 +41,7 @@ var Zooaptv = JSON.parse($response.body);
        }
      },
      "original_purchase_date" : "2022-09-11T13:29:47Z",
-     "original_app_user_id" : "$RCAnonymousID:abad66a1510e4f37a529a7c26f893b97",
+     "original_app_user_id" : "6666666666666666666666666666666",
      "non_subscriptions" : {
  
      }
