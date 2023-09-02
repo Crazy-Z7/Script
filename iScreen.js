@@ -1,7 +1,7 @@
 /*************************************
 @Zoo
 iScreen，商店最新版解锁永久订阅，修复规则反复失效问题，规则只需开一次
-版本号:3.6.7
+版本号:3.7.10
 日期:2023.05.18
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/iScreen.js
